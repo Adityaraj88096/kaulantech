@@ -9,7 +9,7 @@ const projects = [
     name: "School Management system",
     description:
       "School management system is a white-labeled android app that is for school institutions to manage their students, teachers and other information in an efficient way. ",
-    image: "/product.jpg",
+    image: "/school.png",
     youtube: "",
     // github: "https://github.com/hqasmei/thankful-thoughts",
     link: "/",

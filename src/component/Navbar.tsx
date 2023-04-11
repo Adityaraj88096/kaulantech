@@ -37,7 +37,7 @@ const Navbar = () => {
       <div>
         <div className='flex items-center justify-between py-3'>
           <div className='flex md:py-5 md:black'>
-            <Image src={'/logo.jpg'} width={30} height={0.65} alt="logo" />
+            <Image src={'/logo.png'} width={30} height={0.65} alt="logo" />
             <h2 className='text-2xl font-bold'>Kaulantech</h2>
           </div>
           <div className='md:hidden'>
