@@ -13,6 +13,9 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
           © 2023 Kaulantech<a href="/" className="hover:underline"></a>
         </div>
+         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
+          <a href="/privacy" className="hover:underline">Privacy policy </a>
+        </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://instagram.com/kaulantech" rel="noreferrer" target="_blank">
             <AiOutlineInstagram
