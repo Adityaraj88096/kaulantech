@@ -20,10 +20,10 @@ export default function Privacy() {
       <p className="mb-4">All data is stored locally on your device. We follow strict practices to ensure your data stays private and secure.</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">3. Third-party Services</h2>
-      <p className="mb-4">PrepGame may use third-party services like Google Analytics for Firebase to improve functionality. These services may collect anonymized data in accordance with their own privacy policies.</p>
+      <p className="mb-4">PrepGame does not use any third-party analytics or cloud-based services that collect or track your personal information.</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">4. Your Choices</h2>
-      <p className="mb-4">You can delete your app data at any time by clearing the app storage or uninstalling the app.</p>
+      <p className="mb-4">You can delete all your app data at any time by clearing the app storage or uninstalling the app.</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">5. Changes to This Policy</h2>
       <p className="mb-4">We may update this policy occasionally. Any changes will be posted on this page with an updated effective date.</p>
