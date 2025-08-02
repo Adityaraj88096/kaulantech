@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Prepgame",
     description:
-      "Prepgame is a mobile application which saves your time by increasing your sudying and retening efficiency by providiing research backed revision schedule and testpapers. It can be used by both students and professionals to learn anyhting new and ingrain it into their permanent memory. We also provide tests(Both pyq and Mocks) for several examinations.",
+      "Prepgame is a mobile application designed to enhance learning efficiency and retention through scientifically backed revision schedules and a comprehensive test-taking platform. Whether you're a student or a professional, Prepgame helps you master new concepts and embed them into long-term memory. The app offers a wide range of test papers, including previous year questions (PYQs) and mock exams, for various competitive and academic examinations.",
     image: "/prepgame.jpg",
     youtube: "",
     // github: "https://github.com/hqasmei/thankful-thoughts",
