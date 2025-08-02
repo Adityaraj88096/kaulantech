@@ -6,41 +6,41 @@ import { BsYoutube, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "School Management system",
+    name: "Prepgame",
     description:
-      "School management system is a white-labeled android app that is for school institutions to manage their students, teachers and other information in an efficient way. ",
-    image: "/school.png",
+      "Prepgame is a mobile application which saves your time by increasing your sudying and retening efficiency by providiing research backed revision schedule and testpapers. It can be used by both students and professionals to learn anyhting new and ingrain it into their permanent memory. We also provide tests(Both pyq and Mocks) for several examinations.",
+    image: "/prepgame.jpg",
     youtube: "",
     // github: "https://github.com/hqasmei/thankful-thoughts",
     link: "/",
     price: 'Free',
     platform: "Android app",
-    purpose: 'School Management',
+    purpose: 'To Increase efficiency of students and professionals.',
   },
-  {
-    name: "Gym, diet & workout planner",
-    description:
-    "Gym,diet & workout planner is a white-labeled android app that is for gym owners to manage their clients in an efficient way. They can handover workout routines, diet plans and their supplements as well.",
-    image: "/gym.png",
-    youtube: "",
-    purpose: 'Gym Management',
-    price: 'Free',
-    platform: "Android app",
-    // github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "",
-  },
-  {
-    name: "Coaching Management",
-    description:
-    "Coaching Management is a white-labeled android app that is for coaching teachers to manage their coaching institute & students in an efficient way. They can manage fee, tests, results, attendance and many things.",
-    image: "/gym.png",
-    youtube: "",
-    purpose: 'Coaching Management',
-    price: 'Free',
-    platform: "Android app",
-    // github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "",
-  },
+  // {
+  //   name: "Gym, diet & workout planner",
+  //   description:
+  //   "Gym,diet & workout planner is a white-labeled android app that is for gym owners to manage their clients in an efficient way. They can handover workout routines, diet plans and their supplements as well.",
+  //   image: "/gym.png",
+  //   youtube: "",
+  //   purpose: 'Gym Management',
+  //   price: 'Free',
+  //   platform: "Android app",
+  //   // github: "https://github.com/hqasmei/thankful-thoughts",
+  //   link: "",
+  // },
+  // {
+  //   name: "Coaching Management",
+  //   description:
+  //   "Coaching Management is a white-labeled android app that is for coaching teachers to manage their coaching institute & students in an efficient way. They can manage fee, tests, results, attendance and many things.",
+  //   image: "/gym.png",
+  //   youtube: "",
+  //   purpose: 'Coaching Management',
+  //   price: 'Free',
+  //   platform: "Android app",
+  //   // github: "https://github.com/hqasmei/thankful-thoughts",
+  //   link: "",
+  // },
 ]
 
 const ProductsSection = () => {
