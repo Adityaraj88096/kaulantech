@@ -92,7 +92,7 @@ const ProductsSection = () => {
                       <div className="font-bold text-xl mt-4">Price : <span className="text-green-700 font-i">{project.price}</span></div>
                       <div className="font-bold text-xl mt-1">platform : <span className="text-green-700 font-i">{project.platform}</span></div>
                       <div className="font-bold text-xl mt-1">Purpose : <span className="text-green-700 font-i">{project.purpose} </span></div>
-                      <div className="font-bold text-xl mt-1">Category : <span className="text-green-700 font-i">private or white labelled</span></div>
+{/*                       <div className="font-bold text-xl mt-1">Category : <span className="text-green-700 font-i">public</span></div> */}
                       <div className="font-bold text-xl mt-1">Call us now : <span className="text-green-700 font-i">+91-8226931447</span></div>
                   </div>
                 </div>
