@@ -34,7 +34,7 @@ const AboutSection = () => {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" visionary"}</span>, and
               <span className="font-bold">{"technology driven"}</span> SaaS(software as a service)
-              based in Los Angeles, CA.
+              based in Uttar Pradesh, India.
             </p>
             <br />
             <p>
