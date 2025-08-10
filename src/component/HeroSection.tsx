@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software as a service(SaaS){" "}
             </span>
-            company based in Los Angeles, CA. Working towards providing business solutions. Our vision is "modernization of traditional businesses and institutions".
+            company based in Uttar Pradesh, India. Working towards providing business solutions. Our vision is "modernization of traditional businesses and institutions".
           </p>
           <Link
             to="products"
