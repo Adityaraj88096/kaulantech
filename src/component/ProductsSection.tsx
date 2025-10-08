@@ -17,30 +17,6 @@ const projects = [
     platform: "Android app",
     purpose: 'To Increase efficiency of students and professionals.',
   },
-  // {
-  //   name: "Gym, diet & workout planner",
-  //   description:
-  //   "Gym,diet & workout planner is a white-labeled android app that is for gym owners to manage their clients in an efficient way. They can handover workout routines, diet plans and their supplements as well.",
-  //   image: "/gym.png",
-  //   youtube: "",
-  //   purpose: 'Gym Management',
-  //   price: 'Free',
-  //   platform: "Android app",
-  //   // github: "https://github.com/hqasmei/thankful-thoughts",
-  //   link: "",
-  // },
-  // {
-  //   name: "Coaching Management",
-  //   description:
-  //   "Coaching Management is a white-labeled android app that is for coaching teachers to manage their coaching institute & students in an efficient way. They can manage fee, tests, results, attendance and many things.",
-  //   image: "/gym.png",
-  //   youtube: "",
-  //   purpose: 'Coaching Management',
-  //   price: 'Free',
-  //   platform: "Android app",
-  //   // github: "https://github.com/hqasmei/thankful-thoughts",
-  //   link: "",
-  // },
 ]
 
 const ProductsSection = () => {
@@ -94,7 +70,9 @@ const ProductsSection = () => {
                       <div className="font-bold text-xl mt-4">Price : <span className="text-green-700 font-i">{project.price}</span></div>
                       <div className="font-bold text-xl mt-1">platform : <span className="text-green-700 font-i">{project.platform}</span></div>
                       <div className="font-bold text-xl mt-1">Purpose : <span className="text-green-700 font-i">{project.purpose} </span></div>
-                      {/* <Link href={product.link} className="font-bold text-xl mt-1">Download it for <span className="text-green-700 font-i">Free</span></Link> */}
+                      <a href={product.link} className="font-bold text-xl mt-1">Download it for 
+                      {/* <span className="text-green-700 font-i">Free</span> */}
+                      </a> 
                       <div className="font-bold text-xl mt-1">Call us now : <span className="text-green-700 font-i">+91-8226931447</span></div>
                   </div>
                 </div>
