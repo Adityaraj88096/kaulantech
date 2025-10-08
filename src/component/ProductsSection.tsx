@@ -12,7 +12,7 @@ const projects = [
     image: "/prepgame.jpg",
     youtube: "",
     // github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "/",
+    link: "https://play.google.com/store/apps/details?id=com.kaulantech.prepgame&hl=en-US&ah=OoCsJnR5hRsxZzkYlKBvJcURavI",
     price: 'Free',
     platform: "Android app",
     purpose: 'To Increase efficiency of students and professionals.',
@@ -58,7 +58,7 @@ const ProductsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    {/* <Link href={project.link}> */}
+                    <Link href={project.link}>
                       <Image
                         src={project.image}
                         alt=""
@@ -66,7 +66,7 @@ const ProductsSection = () => {
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
                       />
-                    {/* </Link> */}
+                    </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
@@ -82,12 +82,12 @@ const ProductsSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      {/* <Link href={project.link} target="_blank">
+                      <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link> */}
+                      </Link>
                     </div>
                       <div className="font-bold text-xl mt-4">Price : <span className="text-green-700 font-i">{project.price}</span></div>
                       <div className="font-bold text-xl mt-1">platform : <span className="text-green-700 font-i">{project.platform}</span></div>
