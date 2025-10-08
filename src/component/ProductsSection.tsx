@@ -70,9 +70,16 @@ const ProductsSection = () => {
                       <div className="font-bold text-xl mt-4">Price : <span className="text-green-700 font-i">{project.price}</span></div>
                       <div className="font-bold text-xl mt-1">platform : <span className="text-green-700 font-i">{project.platform}</span></div>
                       <div className="font-bold text-xl mt-1">Purpose : <span className="text-green-700 font-i">{project.purpose} </span></div>
-                      <a href={product.link} className="font-bold text-xl mt-1">Download it for 
-                      {/* <span className="text-green-700 font-i">Free</span> */}
-                      </a> 
+                      <div className="font-bold text-xl mt-1">
+  <Link 
+    href={project.link} 
+    target="_blank" 
+    className="text-blue-600 hover:text-blue-800 underline transition-colors duration-200"
+  >
+    🎁 Get it for Free
+  </Link>
+</div>
+
                       <div className="font-bold text-xl mt-1">Call us now : <span className="text-green-700 font-i">+91-8226931447</span></div>
                   </div>
                 </div>
