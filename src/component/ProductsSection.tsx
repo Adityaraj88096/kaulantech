@@ -82,7 +82,9 @@ const ProductsSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link href={project.link} target="_blank">
+                      <Link href={project.link} 
+                        {/* target="_blank" */}
+                        >
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
@@ -92,7 +94,7 @@ const ProductsSection = () => {
                       <div className="font-bold text-xl mt-4">Price : <span className="text-green-700 font-i">{project.price}</span></div>
                       <div className="font-bold text-xl mt-1">platform : <span className="text-green-700 font-i">{project.platform}</span></div>
                       <div className="font-bold text-xl mt-1">Purpose : <span className="text-green-700 font-i">{project.purpose} </span></div>
-{/*                       <div className="font-bold text-xl mt-1">Category : <span className="text-green-700 font-i">public</span></div> */}
+                      <Link href={product.link} className="font-bold text-xl mt-1">Download it for <span className="text-green-700 font-i">Free</span></Link>
                       <div className="font-bold text-xl mt-1">Call us now : <span className="text-green-700 font-i">+91-8226931447</span></div>
                   </div>
                 </div>
