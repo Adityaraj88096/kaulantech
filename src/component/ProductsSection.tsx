@@ -94,7 +94,7 @@ const ProductsSection = () => {
                       <div className="font-bold text-xl mt-4">Price : <span className="text-green-700 font-i">{project.price}</span></div>
                       <div className="font-bold text-xl mt-1">platform : <span className="text-green-700 font-i">{project.platform}</span></div>
                       <div className="font-bold text-xl mt-1">Purpose : <span className="text-green-700 font-i">{project.purpose} </span></div>
-                      <Link href={product.link} className="font-bold text-xl mt-1">Download it for <span className="text-green-700 font-i">Free</span></Link>
+                      {/* <Link href={product.link} className="font-bold text-xl mt-1">Download it for <span className="text-green-700 font-i">Free</span></Link> */}
                       <div className="font-bold text-xl mt-1">Call us now : <span className="text-green-700 font-i">+91-8226931447</span></div>
                   </div>
                 </div>
